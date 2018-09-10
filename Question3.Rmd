@@ -1,0 +1,21 @@
+---
+title: "Question3"
+author: "Hukai Luo"
+output: pdf_document
+---
+
+Question3
+
+Explain how `.Machine$double.xmax`, `.Machine$double.xmin`, `.Machine$double.eps`, and `.Machine@double.neg.eps` are defined using the 64-bit double precision floating point arithmetic.
+
+`.Machine$double.xmax`
+$$0\ \ 11111111110\ \ 1111111111111111111111111111111111111111111111111111_{2}$$
+
+`.Machine$double.xmin`
+$$0\ \ 00000000001\ \ 0000000000000000000000000000000000000000000000000000_{2}$$
+
+`.Machine$double.eps`
+$$0\ \ 01111001011\ \ 0000000000000000000000000000000000000000000000000000_{2}$$
+
+`.Machine@double.neg.eps`
+$$0\ \ 01111001010\ \ 0000000000000000000000000000000000000000000000000000_{2}$$
