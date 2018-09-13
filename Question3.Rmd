@@ -1,12 +1,15 @@
 ---
 title: "Question3"
 author: "Hukai Luo"
+date: "`r format(Sys.time(), '%d %B %Y')`"
 output: pdf_document
 ---
 
-Question3
+# Question
 
 Explain how `.Machine$double.xmax`, `.Machine$double.xmin`, `.Machine$double.eps`, and `.Machine@double.neg.eps` are defined using the 64-bit double precision floating point arithmetic.
+
+# Solution
 
 `.Machine$double.xmax`
 $$0\ \ 11111111110\ \ 1111111111111111111111111111111111111111111111111111_{2}$$
